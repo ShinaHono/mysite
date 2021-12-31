@@ -533,6 +533,7 @@ h1{
 .asaho-img{
 	width: 80%;
 	opacity: 1;
+	margin-top: 10%;
 }
 .innerBox1,.innerBox2 {
 	text-align: center;
@@ -540,9 +541,6 @@ h1{
 .asaho-status {
 	margin-left: auto;
 	margin-right: 3%;
-}
-.asaho-status span {
-	width: 1rem;
 }
 p {
 	text-indent: 1rem;
