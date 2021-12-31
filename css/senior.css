@@ -538,6 +538,9 @@ h1{
 	margin-left: auto;
 	margin-right: 3%;
 }
-.indent {
+.asaho-status span {
+	with: 1rem;
+}
+p {
 	text-indent: 1rem;
 }
