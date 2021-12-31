@@ -2,7 +2,7 @@
 $.scrollify({
     section : ".box",//1ページスクロールさせたいエリアクラス名
     scrollbars:"false",//スクロールバー表示・非表示設定
-    interstitialSection : "#header",//ヘッダーフッターを認識し、1ページスクロールさせず表示されるように設定
+    interstitialSection : "#header","#footer",//ヘッダーフッターを認識し、1ページスクロールさせず表示されるように設定
     easing: "swing", // 他にもlinearやeaseOutExpoといったjQueryのeasing指定可能
     scrollSpeed: 500, // スクロール時の速度
     
