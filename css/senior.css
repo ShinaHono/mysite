@@ -538,3 +538,6 @@ h1{
 	margin-left: auto;
 	margin-right: 3%;
 }
+.indent {
+	text-indent: 1rem;
+}
