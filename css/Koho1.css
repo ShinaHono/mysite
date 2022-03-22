@@ -278,7 +278,7 @@ header::before {
 	display: flex;
 }
 .discussion2 {
-	flex: 0 0 auto;
+	flex: 1 1 auto;
 	margin-left: 5%;
 }
 .outline {
