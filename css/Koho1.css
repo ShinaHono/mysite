@@ -284,6 +284,7 @@ header::before {
 .outline {
 	flex: 1 1 auto;
 	margin: 0 5%;
+	vertical-align: center;
 }
 
 .discussion2Anime {
