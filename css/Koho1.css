@@ -334,6 +334,14 @@ header::before {
 	background-color: orange;
 }
 
+.outlineContent{
+	vertical-align: middle;
+}
+
+.historyContent{
+	vertical-align: middle;
+}
+
 .outlineContentAnime {
 	animation-name: outlineContentAnime;
 	animation-delay: 0.5s;
