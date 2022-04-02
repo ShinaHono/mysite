@@ -112,19 +112,19 @@ h1{
 	height: fit-content; /*ここでMAX100vhにしてるから子要素の合計を100vhにしないと飛び出すお*/
 	
 }
-#box4 {
+/* #box3 {
     background: url('../img/senior2.jpg') center/ cover;
 	width: fit-content;
-	height: fit-content; /*ここでMAX100vhにしてるから子要素の合計を100vhにしないと飛び出すお*/
+	height: fit-content; *//*ここでMAX100vhにしてるから子要素の合計を100vhにしないと飛び出すお*/
 	
-}
-#box3 {
+/*}*/ 
+#box4 {
     background: url('../img/senior3.jpg') center/ cover;
 	width: 100%;
 	height: fit-content;
 	
 }
-#box3 h1{
+#box4 h1{
 	/*font-size: 3em;*/
 	margin: 5% 5% 5% 0;
 	text-align: right;

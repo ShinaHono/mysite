@@ -48,7 +48,7 @@ $.scrollify({
       });
    }*/
 
-   function scrollHeader1(){
+   function scrollHeader01(){
       $('.InnerBox').each(function(){
          let windowHeight1 = $(window).height();
          let divHeight1 = $(this).offset().top + 100;
@@ -71,31 +71,55 @@ $.scrollify({
          }
       });
    }
-   function scrollHeader01(){
-      $('.InnerBox01').each(function(){
-         let windowHeight1 = $(window).height();
-         let divHeight1 = $(this).offset().top + 100;
-         let scroll1 = $(window).scrollTop();  //動いてないのスクロール説
-         let differenceHeight1 = divHeight1 - windowHeight1;
-         //console.log(differenceHeight1);
-         //console.log(scroll1);
-         if (scroll1 >= differenceHeight1){
-            $(this).addClass('innerBoxAnime');
-            $(".tag").addClass('innerBoxAnime');
-            //console.log('いけます');
-            $('.contentBox01').addClass('translateTitleBox01');
-            $('.content01').addClass('translateTitle01');
-         }else{
-            $(this).removeClass('innerBoxAnime');
-            $(".tag").removeClass('innerBoxAnime');
-            //console.log('まだです');
-            $('.contentBox01').removeClass('translateTitleBox01');
-            $('.content01').removeClass('translateTitle01');
-         }
-      });
-   }
+   // function scrollHeader01(){
+   //    $('.InnerBox01').each(function(){
+   //       let windowHeight1 = $(window).height();
+   //       let divHeight1 = $(this).offset().top + 100;
+   //       let scroll1 = $(window).scrollTop();  //動いてないのスクロール説
+   //       let differenceHeight1 = divHeight1 - windowHeight1;
+   //       //console.log(differenceHeight1);
+   //       //console.log(scroll1);
+   //       if (scroll1 >= differenceHeight1){
+   //          $(this).addClass('innerBoxAnime');
+   //          $(".tag").addClass('innerBoxAnime');
+   //          //console.log('いけます');
+   //          $('.contentBox01').addClass('translateTitleBox01');
+   //          $('.content01').addClass('translateTitle01');
+   //       }else{
+   //          $(this).removeClass('innerBoxAnime');
+   //          $(".tag").removeClass('innerBoxAnime');
+   //          //console.log('まだです');
+   //          $('.contentBox01').removeClass('translateTitleBox01');
+   //          $('.content01').removeClass('translateTitle01');
+   //       }
+   //    });
+   // }
+   // function scrollHeader02(){
+   //    $('.InnerBox02').each(function(){
+   //       let windowHeight1 = $(window).height();
+   //       let divHeight1 = $(this).offset().top + 100;
+   //       let scroll1 = $(window).scrollTop();  //動いてないのスクロール説
+   //       let differenceHeight1 = divHeight1 - windowHeight1;
+   //       //console.log(differenceHeight1);
+   //       //console.log(scroll1);
+   //       if (scroll1 >= differenceHeight1){
+   //          $(this).addClass('innerBoxAnime');
+   //          $(".tag").addClass('innerBoxAnime');
+   //          //console.log('いけます');
+   //          $('.contentBox02').addClass('translateTitleBox02');
+   //          $('.content02').addClass('translateTitle02');
+   //       }else{
+   //          $(this).removeClass('innerBoxAnime');
+   //          $(".tag").removeClass('innerBoxAnime');
+   //          //console.log('まだです');
+   //          $('.contentBox02').removeClass('translateTitleBox02');
+   //          $('.content02').removeClass('translateTitle02');
+   //       }
+   //    });
+   // }
+
    function scrollHeader02(){
-      $('.InnerBox02').each(function(){
+      $('.InnerBox2').each(function(){
          let windowHeight1 = $(window).height();
          let divHeight1 = $(this).offset().top + 100;
          let scroll1 = $(window).scrollTop();  //動いてないのスクロール説
@@ -198,7 +222,7 @@ $.scrollify({
          }
       });
    }*/
-   function scrollHeader3(){
+   function scrollHeader03(){
       $('.InnerBox3').each(function(){
          let windowHeight3 = $(window).height();
          let divHeight3 = $(this).offset().top + 100;
@@ -224,11 +248,11 @@ $.scrollify({
    }
 
    $(window).scroll(function(){
-      scrollHeader1();
+      //scrollHeader1();
       scrollHeader01();
       scrollHeader02();
       //scrollHeader2();
-      scrollHeader3();
+      scrollHeader03();
    });
    
   $(document).ready(function(){$(".roppo").on('click', function(){
